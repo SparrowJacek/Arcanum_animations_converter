@@ -140,21 +140,4 @@ def createAnimation(newBamName, oldBamName, BMPfileName, BMPfileDirectory, infoF
     createFrameLookupTable(newBamName)
 
 
-createAnimation('mojBam.BAM', 'SPFIRESB.BAM', 'FRC-ShieldSustain_a.bmp',
-                'C:\\Users\\Kapitan Jacek\\PycharmProjects\\untitled1', 'anim_infos.info')
 
-# createBamFrameEntries('pies.BAM', 'anim_infos.info')
-# Offset	Size (data type)	Description
-# 0x0000	2 (word)	Frame width
-# 0x0002	2 (word)	Frame height
-# 0x0004	2 (signed word)	Frame center X coordinate
-# 0x0006	2 (signed word)	Frame center Y coordinate
-# 0x0008	4 (dword)
-# bits 30-0: Offset to frame data
-# bit 31: 0=Compressed (RLE), 1=Uncompressed
-
-
-# Width, Height,
-# size,
-# center_x, center_y,
-# offset_x, offset_y: dWord;
